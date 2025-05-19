@@ -1,0 +1,66 @@
+/* Fuente personalizada */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Header y reloj */
+#reloj {
+  font-family: monospace;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Botones */
+.btn {
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.justificado {
+      text-align: justify;
+    }
+.anuncio {
+      background-color: #f1f1f1;
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #444;
+    }
+  
+
+/* Estilo para tarjetas destacadas */
+.card.destacada {
+  border: 2px solid #b00610;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.card.destacada:hover {
+  transform: scale(1.02);
+}
+
+/* Footer */
+footer ul {
+  padding-left: 0;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#header {
+  scroll-margin-top: 80px;
+}
+/* Responsividad */
+@media (max-width: 768px) {
+  #reloj {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
